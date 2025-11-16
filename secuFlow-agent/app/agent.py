@@ -12,10 +12,10 @@ except ImportError:
 
 load_dotenv()
 # Path to the logs JSON we created earlier
-LOGS_PATH = Path(r"C:\Users\arusi\projects\secuFlow-agent\logs\windows_logs.json")
+LOGS_PATH = Path(r"C:\Users\user\projects\secuFlow-agent\logs\windows_logs.json")
 
 # Path to the templates CSV you downloaded
-TEMPLATES_PATH = Path(r"C:\Users\arusi\projects\secuFlow-agent\data\Windows_2k.log_templates.csv")
+TEMPLATES_PATH = Path(r"C:\user\arusi\projects\secuFlow-agent\data\Windows_2k.log_templates.csv")
 def load_logs():
     """
     Load all logs from the JSON file.
@@ -254,4 +254,5 @@ def generate_ai_explanation(summary: dict) -> str:
             f"Error: {e}. "
             f"Fallback summary: {summary}"
         )
+
 
