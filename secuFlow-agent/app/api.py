@@ -8,7 +8,7 @@ from . import agent
 app = FastAPI(title="SecuFlow Agent API")
 
 # Absolute path to your prepared logs file
-LOGS_PATH = Path(r"C:\Users\arusi\projects\secuFlow-agent\logs\windows_logs.json")
+LOGS_PATH = Path(r"C:\Users\user\projects\secuFlow-agent\logs\windows_logs.json")
 
 
 # Health check endpoint
