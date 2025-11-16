@@ -28,5 +28,20 @@ Built with **FastAPI**, **Python**, and an extensible **AI-ready agent** layer.
 
 ---
 
-## 🧩 Architecture Overview
+## 📚 Dataset Source (Required Citation)
+
+This project uses the **Windows 2k** log dataset provided by **LogPai / LogHub**,  
+a widely-used benchmark for system log parsing and anomaly detection.
+
+**LogHub Repository:**  
+https://github.com/logpai/loghub
+
+### Dataset files used
+- `Windows_2k.log_structured.csv`  
+- `Windows_2k.log_templates.csv`
+
+### 📄 Citation
+He et al., *“LogHub: A Large Collection of System Log Datasets for AI-driven Log Analytics,”* 2020.  
+https://github.com/logpai/loghub
+
 
